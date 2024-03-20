@@ -1,0 +1,60 @@
+.bottom {
+    position: sticky;
+    height: 90px;
+    background-color: rgb(0, 0, 0);
+    color: white;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#myprogressbar{
+    width: 80vw;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+}
+
+.icons{
+    display: flex;
+    flex-direction: row;
+    margin: 15px  0px;
+    cursor: pointer;
+
+}
+
+
+
+
+
+.icons IoPlaySkipForward{
+    margin-left: 15px;
+
+
+}
+
+
+
+.songinfo{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    left: 10vw;
+    opacity: 0;
+    transition: opacity 0.4s ease-in;
+}
+
+.songinfo h1{
+    margin-left: 20px;
+    padding: 0;
+    font-size: inherit;
+    font-weight: inherit;
+    color: inherit;
+    display: flex;
+    flex-direction: column;
+
+}
+
+
